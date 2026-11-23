@@ -6,7 +6,7 @@ When a newspaper reports that a Korean listed company is about to merge or sell 
 
 ## Why I built this
 
-I trade Korean stocks and crypto, and "undecided" filings come up all the time. The sequence rarely changes. On 26 June 2026 KT answered a report about merging KT Cloud: undecided, we will answer within one month. On 24 July: undecided, three months. On 23 October: undecided, six months, so 22 April 2027. One month, three months, six months, and nobody keeps count.
+I follow Korean stocks and crypto, and "undecided" filings come up all the time. The sequence rarely changes. On 26 June 2026 KT answered a report about merging KT Cloud: undecided, we will answer within one month. On 24 July: undecided, three months. On 23 October: undecided, six months, so 22 April 2027. One month, three months, six months, and nobody keeps count.
 
 Keeping count by hand is harder than it sounds:
 - **Filings of one rumor aren't linked.** Each is a new document with a generic form name. Some list the earlier ones at the bottom under 관련공시, some don't.
