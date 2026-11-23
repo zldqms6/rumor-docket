@@ -1,0 +1,10 @@
+{
+  "name": "rumor-docket",
+  "version": "1.0.0",
+  "description": "Follows a Korean listed company's undecided rumor reply through its DART re-disclosures, on GenLayer",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "genlayer-js": "^1.1.8"
+  }
+}
