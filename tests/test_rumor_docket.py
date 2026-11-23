@@ -8,10 +8,9 @@ CONTRACT = "contracts/rumor_docket.py"
 DART = "https://dart.fss.or.kr"
 GEN = 10**18
 FEE = GEN // 10
-# Filing bodies are DART's own pages, byte for byte (exchange filings are MS949). Frames
-# are cut to the lines the contract reads. The search pages hold the real rows, put back
-# into DART's row markup by hand: DART cut my address off before they were saved whole.
-# scripts/capture_fixture.py replaces all of it with fresh captures.
+# Real DART answers captured on 2026-11-23 with scripts/capture_fixture.py: search pages
+# and filing bodies byte for byte (exchange filings are MS949), filing frames cut to the
+# lines the contract reads.
 FX = {k: base64.b64decode(v) for k, v in
       json.loads((Path(__file__).parent / "fixtures" / "dart.json").read_text(encoding="utf-8")).items()}
 LAST = "20261123"                # the day the lists were captured

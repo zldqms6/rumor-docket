@@ -126,7 +126,7 @@ py -3.12 -m venv .venv && .venv/Scripts/pip install -r requirements-test.txt
 python -X utf8 -m pytest -q tests        # -X utf8: the contract source contains Korean
 ```
 
-22 tests in gltest direct mode. The filing bodies are DART's own pages, byte for byte (MS949). The search pages hold the real rows put back into DART's row markup, because DART cut my address off before I had saved those pages whole; the contract's own reading of them was checked live (above). Each guard was also removed one at a time to see a test fail. They cover the four rumors above, and:
+22 tests in gltest direct mode. The DART pages they read are real answers captured on 2026-11-23, byte for byte (filings are MS949). Each guard was also removed one at a time to see a test fail. They cover the four rumors above, and:
 - **a lying leader**: every single field changed (hidden roll, different outcome, moved date, skipped filing, "nothing left", a made-up quote, an altered text, extra fields, junk) is voted down, while quoting a different real sentence is accepted;
 - **a validator that disagrees**: other outcome, other rumor, a model that answers garbage, one more filing on its list;
 - lists that are incomplete, belong to another company, have no total, or come back as an error page, seen by the leader only or by both;
@@ -143,5 +143,5 @@ python -X utf8 -m pytest -q tests        # -X utf8: the contract source contains
 - **Same-day order** is by receipt number. A reply numbered lower than the opening one on the same day is treated as earlier.
 - **A filing models can't agree on blocks the docket**, since filings are read in order. Nothing wrong is stored, but it stops there; the sponsor's pot frees up 30 days after the promised date.
 - **At most 100 rumor filings per docket.** The busiest company I found had 13 in six months.
-- **DART throttles.** While collecting test data I sent it roughly 200 requests within a few minutes and my own address was cut off. One step costs three requests per validator; the live run kept 45 seconds between transactions and met no refusal.
+- **DART throttles.** While collecting test data I sent it roughly 200 requests within a few minutes and my own address was cut off for about an hour. One step costs three requests per validator; the live run kept 45 seconds between transactions and met no refusal.
 - Studionet, test GEN. The contract has not been audited.
