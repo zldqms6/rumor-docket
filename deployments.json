@@ -1,0 +1,10 @@
+{
+  "network": "studionet",
+  "deployments": [
+    {
+      "name": "RumorDocket",
+      "address": "0x7ae8b273c031fd10e99DbB4F9FeBC1CD32B4b03f",
+      "source": "contracts/rumor_docket.py"
+    }
+  ]
+}

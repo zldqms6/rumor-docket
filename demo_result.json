@@ -1,0 +1,1228 @@
+{
+  "contract": "0x7ae8b273c031fd10e99DbB4F9FeBC1CD32B4b03f",
+  "network": "studionet",
+  "created": 1795396304,
+  "dockets": [
+    {
+      "label": "refused-opening",
+      "rcp": "20261023800988",
+      "id": -1,
+      "open": {
+        "hash": "0x8a694b41edbf68b853c44cb31a7aa7adeabbb6be80e3b51b519f47d14c42b80e",
+        "status": "ACCEPTED",
+        "exec": "ERROR",
+        "error": null,
+        "votes": [
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "IDLE",
+          "AGREE"
+        ],
+        "message": "[EXPECTED] this filing refers to an earlier undecided reply: open the docket on the first one",
+        "attempts": [
+          {
+            "hash": "0x8a694b41edbf68b853c44cb31a7aa7adeabbb6be80e3b51b519f47d14c42b80e",
+            "status": "ACCEPTED",
+            "exec": "ERROR",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "[EXPECTED] this filing refers to an earlier undecided reply: open the docket on the first one"
+          }
+        ]
+      },
+      "steps": []
+    },
+    {
+      "label": "kt-cloud-merger",
+      "rcp": "20260626800212",
+      "id": 0,
+      "open": {
+        "hash": "0x1bdc13618992259ca543e5e9394bf59fc87ba239040f22a464c3b52dcf244da2",
+        "status": "ACCEPTED",
+        "exec": "SUCCESS",
+        "error": null,
+        "votes": [
+          "AGREE",
+          "IDLE",
+          "AGREE",
+          "AGREE",
+          "IDLE"
+        ],
+        "message": "{\"readable\":\"{\\\"company\\\":\\\"케이티\\\"\\\"due\\\":\\\"2026-07-24\\\"\\\"headline\\\":\\\"종속회사 KT클라우드와 합병 추진 보도에 대한 조회공시 답변\\\"\\\"id\\\":0}\"}",
+        "attempts": [
+          {
+            "hash": "0x1bdc13618992259ca543e5e9394bf59fc87ba239040f22a464c3b52dcf244da2",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "AGREE",
+              "IDLE"
+            ],
+            "message": "{\"readable\":\"{\\\"company\\\":\\\"케이티\\\"\\\"due\\\":\\\"2026-07-24\\\"\\\"headline\\\":\\\"종속회사 KT클라우드와 합병 추진 보도에 대한 조회공시 답변\\\"\\\"id\\\":0}\"}"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x541566fbe03d5298fd2b35affb52fd78d8493684d56e205a5345e74975df3c6c",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "AGREE",
+              "IDLE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-10-23\\\"\\\"id\\\":0\\\"left\\\":2\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260724800564\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x541566fbe03d5298fd2b35affb52fd78d8493684d56e205a5345e74975df3c6c",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "AGREE",
+                  "IDLE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-10-23\\\"\\\"id\\\":0\\\"left\\\":2\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260724800564\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 1,
+            "due": "2026-10-23",
+            "silent": 0,
+            "pot": "900000000000000000",
+            "last": {
+              "due": "2026-10-23",
+              "form": "조회공시요구(풍문또는보도)에대한답변(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "UNDECIDED",
+              "quote": "당사는 AX사업 경쟁력 강화를 위해 다양한 방안을 검토중이나, 현재까지 구체적으로 결정된 사항은 없습니다.",
+              "rcp": "20260724800564",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x43bd002986e834005ecf022aedbce8a97db98e7d5d5a0d9da9dd35931c025baa",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-04-22\\\"\\\"id\\\":0\\\"left\\\":1\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20261023800988\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x43bd002986e834005ecf022aedbce8a97db98e7d5d5a0d9da9dd35931c025baa",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-04-22\\\"\\\"id\\\":0\\\"left\\\":1\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20261023800988\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 2,
+            "due": "2027-04-22",
+            "silent": 0,
+            "pot": "800000000000000000",
+            "last": {
+              "due": "2027-04-22",
+              "form": "조회공시요구(풍문또는보도)에대한답변(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "UNDECIDED",
+              "quote": "종속회사 KT클라우드와 합병 추진 보도에 대한 조회공시 답변",
+              "rcp": "20261023800988",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x26f281538a771d6cec848dc5614de31fcc034a1b819ad0e44a7edeb646b354c2",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-04-22\\\"\\\"id\\\":0\\\"left\\\":0\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20261117800141\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x26f281538a771d6cec848dc5614de31fcc034a1b819ad0e44a7edeb646b354c2",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-04-22\\\"\\\"id\\\":0\\\"left\\\":0\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20261117800141\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 2,
+            "due": "2027-04-22",
+            "silent": 0,
+            "pot": "700000000000000000",
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20261117800141",
+              "same": false
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x086e6de494432f5fdb60ac9d0840212ea536d8fcbc39638b941db082f9fb1d4c",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"id\\\":0\\\"paid\\\":0\\\"read\\\":\\\"\\\"\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x086e6de494432f5fdb60ac9d0840212ea536d8fcbc39638b941db082f9fb1d4c",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"id\\\":0\\\"paid\\\":0\\\"read\\\":\\\"\\\"\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 2,
+            "due": "2027-04-22",
+            "silent": 0,
+            "pot": "700000000000000000",
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20261117800141",
+              "same": false
+            }
+          }
+        }
+      ],
+      "final": {
+        "checked_at": 1795396696,
+        "company": "케이티",
+        "corp": "00190321",
+        "days_late": 0,
+        "due": "2027-04-22",
+        "filings": [
+          {
+            "due": "2026-07-24",
+            "form": "조회공시요구(풍문또는보도)에대한답변(미확정)",
+            "kind": "opening",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "",
+            "rcp": "20260626800212",
+            "same": true
+          },
+          {
+            "due": "2026-10-23",
+            "form": "조회공시요구(풍문또는보도)에대한답변(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "당사는 AX사업 경쟁력 강화를 위해 다양한 방안을 검토중이나, 현재까지 구체적으로 결정된 사항은 없습니다.",
+            "rcp": "20260724800564",
+            "same": true
+          },
+          {
+            "due": "2027-04-22",
+            "form": "조회공시요구(풍문또는보도)에대한답변(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "종속회사 KT클라우드와 합병 추진 보도에 대한 조회공시 답변",
+            "rcp": "20261023800988",
+            "same": true
+          },
+          {
+            "due": "",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "",
+            "quote": "",
+            "rcp": "20261117800141",
+            "same": false
+          }
+        ],
+        "headline": "종속회사 KT클라우드와 합병 추진 보도에 대한 조회공시 답변",
+        "id": 0,
+        "latest_rcp": "20261023800988",
+        "opened_rcp": "20260626800212",
+        "pot": "700000000000000000",
+        "rolls": 2,
+        "silent_count": 0,
+        "sponsor": "0x7ECa57604fD79fEEC5A66256f483696fB240C5d3",
+        "state": "undecided",
+        "step_fee": "100000000000000000"
+      }
+    },
+    {
+      "label": "pionx-petition",
+      "rcp": "20260929900633",
+      "id": 1,
+      "open": {
+        "hash": "0xb68b65768d4ed2cef4630464c4516aac5b28f61e7dcd10e7295118d35be8a833",
+        "status": "ACCEPTED",
+        "exec": "SUCCESS",
+        "error": null,
+        "votes": [
+          "AGREE",
+          "IDLE",
+          "AGREE",
+          "IDLE",
+          "AGREE"
+        ],
+        "message": "{\"readable\":\"{\\\"company\\\":\\\"파이온엑스\\\"\\\"due\\\":\\\"2026-10-29\\\"\\\"headline\\\":\\\"채권자에 의한 파산신청설에 대한 조회공시 답변\\\"\\\"id\\\":1}\"}",
+        "attempts": [
+          {
+            "hash": "0xb68b65768d4ed2cef4630464c4516aac5b28f61e7dcd10e7295118d35be8a833",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"company\\\":\\\"파이온엑스\\\"\\\"due\\\":\\\"2026-10-29\\\"\\\"headline\\\":\\\"채권자에 의한 파산신청설에 대한 조회공시 답변\\\"\\\"id\\\":1}\"}"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step": "close_with",
+          "tx": {
+            "hash": "0x82abe68d6dfe417cc5cc8c5ce3f371c99d65e6571f5fefc8868f78140f8a81a0",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"id\\\":1\\\"outcome\\\":\\\"CONFIRMED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20261019900583\\\"\\\"settles\\\":true\\\"state\\\":\\\"confirmed\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x82abe68d6dfe417cc5cc8c5ce3f371c99d65e6571f5fefc8868f78140f8a81a0",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"id\\\":1\\\"outcome\\\":\\\"CONFIRMED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20261019900583\\\"\\\"settles\\\":true\\\"state\\\":\\\"confirmed\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "confirmed",
+            "rolls": 0,
+            "due": "2026-10-29",
+            "silent": 0,
+            "pot": "900000000000000000",
+            "last": {
+              "due": "",
+              "form": "파산신청",
+              "kind": "event",
+              "late": 0,
+              "outcome": "CONFIRMED",
+              "quote": "-당사는 2026.09.28 조회공시요구(풍문 또는 보도)에 대한 답변으로 '파산신청서 등 관련문서 등을 송달받지 못한 사유'로 미확정 답변을 하였으나, 본 공시를 2026.09.29. 조회공시요구(풍문 또는 보도)에 대한 답변(미확정) 공시로 갈음합니다",
+              "rcp": "20261019900583",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "withdraw",
+          "tx": {
+            "hash": "0xa7f0c80ed22b2f6836c1da6fb3fe7bf7f5046f3b44ce78078c3a42fd9f087717",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "IDLE",
+              "AGREE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"900000000000000000\"}",
+            "attempts": [
+              {
+                "hash": "0xa7f0c80ed22b2f6836c1da6fb3fe7bf7f5046f3b44ce78078c3a42fd9f087717",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "IDLE",
+                  "AGREE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"900000000000000000\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "confirmed",
+            "rolls": 0,
+            "due": "2026-10-29",
+            "silent": 0,
+            "pot": 0,
+            "last": {
+              "due": "",
+              "form": "파산신청",
+              "kind": "event",
+              "late": 0,
+              "outcome": "CONFIRMED",
+              "quote": "-당사는 2026.09.28 조회공시요구(풍문 또는 보도)에 대한 답변으로 '파산신청서 등 관련문서 등을 송달받지 못한 사유'로 미확정 답변을 하였으나, 본 공시를 2026.09.29. 조회공시요구(풍문 또는 보도)에 대한 답변(미확정) 공시로 갈음합니다",
+              "rcp": "20261019900583",
+              "same": true
+            }
+          }
+        }
+      ],
+      "final": {
+        "checked_at": 0,
+        "company": "파이온엑스",
+        "corp": "00781202",
+        "days_late": 0,
+        "due": "2026-10-29",
+        "filings": [
+          {
+            "due": "2026-10-29",
+            "form": "조회공시요구(풍문또는보도)에대한답변(미확정)",
+            "kind": "opening",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "",
+            "rcp": "20260929900633",
+            "same": true
+          },
+          {
+            "due": "",
+            "form": "파산신청",
+            "kind": "event",
+            "late": 0,
+            "outcome": "CONFIRMED",
+            "quote": "-당사는 2026.09.28 조회공시요구(풍문 또는 보도)에 대한 답변으로 '파산신청서 등 관련문서 등을 송달받지 못한 사유'로 미확정 답변을 하였으나, 본 공시를 2026.09.29. 조회공시요구(풍문 또는 보도)에 대한 답변(미확정) 공시로 갈음합니다",
+            "rcp": "20261019900583",
+            "same": true
+          }
+        ],
+        "headline": "채권자에 의한 파산신청설에 대한 조회공시 답변",
+        "id": 1,
+        "latest_rcp": "20261019900583",
+        "opened_rcp": "20260929900633",
+        "pot": 0,
+        "rolls": 0,
+        "silent_count": 0,
+        "sponsor": "0x7ECa57604fD79fEEC5A66256f483696fB240C5d3",
+        "state": "confirmed",
+        "step_fee": "100000000000000000"
+      }
+    },
+    {
+      "label": "hmm-bulk-contract",
+      "rcp": "20260709800131",
+      "id": 2,
+      "open": {
+        "hash": "0xa9667bf0d62d854f9e4a48833c40a6cc2a4120190ce7b363246bdc8a55fa4cf7",
+        "status": "ACCEPTED",
+        "exec": "SUCCESS",
+        "error": null,
+        "votes": [
+          "AGREE",
+          "IDLE",
+          "AGREE",
+          "IDLE",
+          "AGREE"
+        ],
+        "message": "{\"readable\":\"{\\\"company\\\":\\\"HMM\\\"\\\"due\\\":\\\"2026-08-07\\\"\\\"headline\\\":\\\"벌크船도 초장기 계약...HMM 체질개선 속도\\\"\\\"id\\\":2}\"}",
+        "attempts": [
+          {
+            "hash": "0xa9667bf0d62d854f9e4a48833c40a6cc2a4120190ce7b363246bdc8a55fa4cf7",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"company\\\":\\\"HMM\\\"\\\"due\\\":\\\"2026-08-07\\\"\\\"headline\\\":\\\"벌크船도 초장기 계약...HMM 체질개선 속도\\\"\\\"id\\\":2}\"}"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0xfc4edbae1ce3c3566911cc3108ddf74b54a0e1707145f95930718c4c97da56ac",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-11-06\\\"\\\"id\\\":2\\\"left\\\":0\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260807800131\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0xfc4edbae1ce3c3566911cc3108ddf74b54a0e1707145f95930718c4c97da56ac",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-11-06\\\"\\\"id\\\":2\\\"left\\\":0\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260807800131\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 1,
+            "due": "2026-11-06",
+            "silent": 0,
+            "pot": "900000000000000000",
+            "last": {
+              "due": "2026-11-06",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "UNDECIDED",
+              "quote": "본 공시는 2026년 7월 9일 매일경제 지면기사에서 보도한 당사 \"벌크船도 초장기 계약...HMM 체질개선 속도\"에 대한 해명공시(미확정)의 재공시 입니다.",
+              "rcp": "20260807800131",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "close_with",
+          "tx": {
+            "hash": "0xb4d0cc5ed9a7255f3197f7b7dea8b3f76a34f74b6d36f42bd767bf0c29983423",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"id\\\":2\\\"outcome\\\":\\\"\\\"\\\"paid\\\":0\\\"read\\\":\\\"20261015800543\\\"\\\"settles\\\":false\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0xb4d0cc5ed9a7255f3197f7b7dea8b3f76a34f74b6d36f42bd767bf0c29983423",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"id\\\":2\\\"outcome\\\":\\\"\\\"\\\"paid\\\":0\\\"read\\\":\\\"20261015800543\\\"\\\"settles\\\":false\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 1,
+            "due": "2026-11-06",
+            "silent": 0,
+            "pot": "900000000000000000",
+            "last": {
+              "due": "",
+              "form": "신규시설투자등",
+              "kind": "event",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20261015800543",
+              "same": false
+            }
+          }
+        },
+        {
+          "step": "mark_silent",
+          "tx": {
+            "hash": "0x6103efafb29709b3b87e106902a2844c2be26e66e1f72782a2e8be10b7c49c1e",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-11-06\\\"\\\"id\\\":2\\\"paid\\\":100000000000000000\\\"state\\\":\\\"silent\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x6103efafb29709b3b87e106902a2844c2be26e66e1f72782a2e8be10b7c49c1e",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "AGREE",
+                  "IDLE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-11-06\\\"\\\"id\\\":2\\\"paid\\\":100000000000000000\\\"state\\\":\\\"silent\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "silent",
+            "rolls": 1,
+            "due": "2026-11-06",
+            "silent": 1,
+            "pot": "800000000000000000",
+            "last": {
+              "due": "",
+              "form": "신규시설투자등",
+              "kind": "event",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20261015800543",
+              "same": false
+            }
+          }
+        }
+      ],
+      "final": {
+        "checked_at": 1795397128,
+        "company": "HMM",
+        "corp": "00164645",
+        "days_late": 0,
+        "due": "2026-11-06",
+        "filings": [
+          {
+            "due": "2026-08-07",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "opening",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "",
+            "rcp": "20260709800131",
+            "same": true
+          },
+          {
+            "due": "2026-11-06",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "본 공시는 2026년 7월 9일 매일경제 지면기사에서 보도한 당사 \"벌크船도 초장기 계약...HMM 체질개선 속도\"에 대한 해명공시(미확정)의 재공시 입니다.",
+            "rcp": "20260807800131",
+            "same": true
+          },
+          {
+            "due": "",
+            "form": "신규시설투자등",
+            "kind": "event",
+            "late": 0,
+            "outcome": "",
+            "quote": "",
+            "rcp": "20261015800543",
+            "same": false
+          }
+        ],
+        "headline": "벌크船도 초장기 계약...HMM 체질개선 속도",
+        "id": 2,
+        "latest_rcp": "20260807800131",
+        "opened_rcp": "20260709800131",
+        "pot": "800000000000000000",
+        "rolls": 1,
+        "silent_count": 1,
+        "sponsor": "0x7ECa57604fD79fEEC5A66256f483696fB240C5d3",
+        "state": "silent",
+        "step_fee": "100000000000000000"
+      }
+    },
+    {
+      "label": "taekwang-nexflex",
+      "rcp": "20260504800294",
+      "id": 3,
+      "open": {
+        "hash": "0xcdce07e2d3ca318a36fd6883356209afb8e3c0974dc84af449a280e68f05147f",
+        "status": "ACCEPTED",
+        "exec": "SUCCESS",
+        "error": null,
+        "votes": [
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "AGREE",
+          "IDLE"
+        ],
+        "message": "{\"readable\":\"{\\\"company\\\":\\\"태광산업\\\"\\\"due\\\":\\\"2026-06-02\\\"\\\"headline\\\":\\\"태광그룹, MBK 보유 넥스플렉스 인수 검토\\\"\\\"id\\\":3}\"}",
+        "attempts": [
+          {
+            "hash": "0xcdce07e2d3ca318a36fd6883356209afb8e3c0974dc84af449a280e68f05147f",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE"
+            ],
+            "message": "{\"readable\":\"{\\\"company\\\":\\\"태광산업\\\"\\\"due\\\":\\\"2026-06-02\\\"\\\"headline\\\":\\\"태광그룹, MBK 보유 넥스플렉스 인수 검토\\\"\\\"id\\\":3}\"}"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0xba0a2789c0d16d6fa36a74e0ccd6b0bc0aa143f16a0736f29391ae7504269cda",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "IDLE",
+              "AGREE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-09-01\\\"\\\"id\\\":3\\\"left\\\":7\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260602800382\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0xba0a2789c0d16d6fa36a74e0ccd6b0bc0aa143f16a0736f29391ae7504269cda",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "IDLE",
+                  "AGREE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-09-01\\\"\\\"id\\\":3\\\"left\\\":7\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260602800382\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 1,
+            "due": "2026-09-01",
+            "silent": 0,
+            "pot": "900000000000000000",
+            "last": {
+              "due": "2026-09-01",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "UNDECIDED",
+              "quote": "본 공시는 2026년 4월 30일 매일경제에서 보도한 '태광그룹, MBK 보유 넥스플렉스 인수 검토' 내용에 대한 해명공시(미확정)입니다.",
+              "rcp": "20260602800382",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x14ac30a6a8829d9319e8297c48b4771b878bd463454b905d94405858e054bfe5",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-09-01\\\"\\\"id\\\":3\\\"left\\\":6\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260610800321\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x14ac30a6a8829d9319e8297c48b4771b878bd463454b905d94405858e054bfe5",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-09-01\\\"\\\"id\\\":3\\\"left\\\":6\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260610800321\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 1,
+            "due": "2026-09-01",
+            "silent": 0,
+            "pot": "800000000000000000",
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20260610800321",
+              "same": false
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x19264d19d244c44cb5b7cd76a1d96300475432afb2ff3ec3fd8644eec74159e3",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "IDLE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-09-01\\\"\\\"id\\\":3\\\"left\\\":5\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260622800276\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x19264d19d244c44cb5b7cd76a1d96300475432afb2ff3ec3fd8644eec74159e3",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "AGREE",
+                  "AGREE",
+                  "IDLE",
+                  "IDLE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2026-09-01\\\"\\\"id\\\":3\\\"left\\\":5\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260622800276\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 1,
+            "due": "2026-09-01",
+            "silent": 0,
+            "pot": "700000000000000000",
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20260622800276",
+              "same": false
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x4ad51090a92d587dcec67f42e45ca8ac8fbfb0f5eb2169a251af74c6ebe5454e",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "IDLE",
+              "AGREE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-02-26\\\"\\\"id\\\":3\\\"left\\\":4\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260901800368\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x4ad51090a92d587dcec67f42e45ca8ac8fbfb0f5eb2169a251af74c6ebe5454e",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "IDLE",
+                  "AGREE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-02-26\\\"\\\"id\\\":3\\\"left\\\":4\\\"outcome\\\":\\\"UNDECIDED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260901800368\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 2,
+            "due": "2027-02-26",
+            "silent": 0,
+            "pot": "600000000000000000",
+            "last": {
+              "due": "2027-02-26",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "UNDECIDED",
+              "quote": "본 공시는 2026년 4월 30일 매일경제에서 보도한 '태광그룹, MBK 보유 넥스플렉스 인수 검토' 내용에 대한 해명공시(미확정)입니다.",
+              "rcp": "20260901800368",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x62a56cf063a5a02fc78c2229f94bf60d6fb065710ed86f20beac42ec7fb1bf03",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "IDLE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-02-26\\\"\\\"id\\\":3\\\"left\\\":3\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260907800332\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x62a56cf063a5a02fc78c2229f94bf60d6fb065710ed86f20beac42ec7fb1bf03",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "AGREE",
+                  "IDLE",
+                  "IDLE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-02-26\\\"\\\"id\\\":3\\\"left\\\":3\\\"outcome\\\":\\\"\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260907800332\\\"\\\"same_rumor\\\":false\\\"state\\\":\\\"undecided\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "undecided",
+            "rolls": 2,
+            "due": "2027-02-26",
+            "silent": 0,
+            "pot": "500000000000000000",
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명(미확정)",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "",
+              "quote": "",
+              "rcp": "20260907800332",
+              "same": false
+            }
+          }
+        },
+        {
+          "step": "advance",
+          "tx": {
+            "hash": "0x7a339f0077ee688c560dec4d4c99897bfd1207f45e187bc8fae67dddacb3444b",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "IDLE"
+            ],
+            "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-02-26\\\"\\\"id\\\":3\\\"left\\\":2\\\"outcome\\\":\\\"DENIED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260911800691\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"denied\\\"}\"}",
+            "attempts": [
+              {
+                "hash": "0x7a339f0077ee688c560dec4d4c99897bfd1207f45e187bc8fae67dddacb3444b",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "IDLE"
+                ],
+                "message": "{\"readable\":\"{\\\"due\\\":\\\"2027-02-26\\\"\\\"id\\\":3\\\"left\\\":2\\\"outcome\\\":\\\"DENIED\\\"\\\"paid\\\":100000000000000000\\\"read\\\":\\\"20260911800691\\\"\\\"same_rumor\\\":true\\\"state\\\":\\\"denied\\\"}\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "denied",
+            "rolls": 2,
+            "due": "2027-02-26",
+            "silent": 0,
+            "pot": "400000000000000000",
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "DENIED",
+              "quote": "당사는 넥스플렉스 입찰 관련하여 다양한 관점에서 검토하였으나 최종적으로 참여하지 않는 것으로 결정하였습니다.",
+              "rcp": "20260911800691",
+              "same": true
+            }
+          }
+        },
+        {
+          "step": "withdraw",
+          "tx": {
+            "hash": "0x78dca4c366a0dc98b83493f4f83e056d022a2093561363ab3fd45be0265a64fc",
+            "status": "ACCEPTED",
+            "exec": "SUCCESS",
+            "error": null,
+            "votes": [
+              "AGREE",
+              "IDLE",
+              "AGREE",
+              "AGREE",
+              "AGREE"
+            ],
+            "message": "{\"readable\":\"400000000000000000\"}",
+            "attempts": [
+              {
+                "hash": "0x78dca4c366a0dc98b83493f4f83e056d022a2093561363ab3fd45be0265a64fc",
+                "status": "ACCEPTED",
+                "exec": "SUCCESS",
+                "error": null,
+                "votes": [
+                  "AGREE",
+                  "IDLE",
+                  "AGREE",
+                  "AGREE",
+                  "AGREE"
+                ],
+                "message": "{\"readable\":\"400000000000000000\"}"
+              }
+            ]
+          },
+          "after": {
+            "state": "denied",
+            "rolls": 2,
+            "due": "2027-02-26",
+            "silent": 0,
+            "pot": 0,
+            "last": {
+              "due": "",
+              "form": "풍문또는보도에대한해명",
+              "kind": "reply",
+              "late": 0,
+              "outcome": "DENIED",
+              "quote": "당사는 넥스플렉스 입찰 관련하여 다양한 관점에서 검토하였으나 최종적으로 참여하지 않는 것으로 결정하였습니다.",
+              "rcp": "20260911800691",
+              "same": true
+            }
+          }
+        }
+      ],
+      "final": {
+        "checked_at": 0,
+        "company": "태광산업",
+        "corp": "00153393",
+        "days_late": 0,
+        "due": "2027-02-26",
+        "filings": [
+          {
+            "due": "2026-06-02",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "opening",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "",
+            "rcp": "20260504800294",
+            "same": true
+          },
+          {
+            "due": "2026-09-01",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "본 공시는 2026년 4월 30일 매일경제에서 보도한 '태광그룹, MBK 보유 넥스플렉스 인수 검토' 내용에 대한 해명공시(미확정)입니다.",
+            "rcp": "20260602800382",
+            "same": true
+          },
+          {
+            "due": "",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "",
+            "quote": "",
+            "rcp": "20260610800321",
+            "same": false
+          },
+          {
+            "due": "",
+            "form": "풍문또는보도에대한해명",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "",
+            "quote": "",
+            "rcp": "20260622800276",
+            "same": false
+          },
+          {
+            "due": "2027-02-26",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "UNDECIDED",
+            "quote": "본 공시는 2026년 4월 30일 매일경제에서 보도한 '태광그룹, MBK 보유 넥스플렉스 인수 검토' 내용에 대한 해명공시(미확정)입니다.",
+            "rcp": "20260901800368",
+            "same": true
+          },
+          {
+            "due": "",
+            "form": "풍문또는보도에대한해명(미확정)",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "",
+            "quote": "",
+            "rcp": "20260907800332",
+            "same": false
+          },
+          {
+            "due": "",
+            "form": "풍문또는보도에대한해명",
+            "kind": "reply",
+            "late": 0,
+            "outcome": "DENIED",
+            "quote": "당사는 넥스플렉스 입찰 관련하여 다양한 관점에서 검토하였으나 최종적으로 참여하지 않는 것으로 결정하였습니다.",
+            "rcp": "20260911800691",
+            "same": true
+          }
+        ],
+        "headline": "태광그룹, MBK 보유 넥스플렉스 인수 검토",
+        "id": 3,
+        "latest_rcp": "20260911800691",
+        "opened_rcp": "20260504800294",
+        "pot": 0,
+        "rolls": 2,
+        "silent_count": 0,
+        "sponsor": "0x7ECa57604fD79fEEC5A66256f483696fB240C5d3",
+        "state": "denied",
+        "step_fee": "100000000000000000"
+      }
+    }
+  ],
+  "finished": 1795397670
+}
